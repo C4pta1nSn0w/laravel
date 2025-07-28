@@ -47,8 +47,8 @@ services:
     environment:
       MYSQL_DATABASE: laravel
       MYSQL_USER: snow
-      MYSQL_PASSWORD: secret
-      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_PASSWORD: UHLsport5259!
+      MYSQL_ROOT_PASSWORD: "!52UHLsport59%"
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:
@@ -67,8 +67,6 @@ services:
       PMA_ARBITRARY: 0
       PMA_HOST: db
       PMA_PORT: 3306
-      # PMA_USER: snow
-      # PMA_PASSWORD: secret
     networks:
       - app-network
 #Docker Networks
